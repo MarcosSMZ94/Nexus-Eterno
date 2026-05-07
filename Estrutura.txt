@@ -1,0 +1,93 @@
+src/
+  nexus/
+    domain/                ← regras puras (NÃO depende de nada)
+      cards/
+        models.py
+        loader.py
+        parser.py
+        deck_loader.py
+      events/
+        types.py
+        event.py
+        queue.py
+      abilities/
+        registry.py
+        implementations.py
+
+      state/
+        game_state.py
+        player_state.py
+        board_state.py
+      rules/
+        turn.py
+        combat.py
+        summon.py
+        sacrifice.py
+      turn/
+        phase.py
+
+    application/           ← orquestra tudo
+      engine.py
+      command_handler.py
+      event_resolver.py
+      action_factory.py
+      serializers.py
+      setup_abilities.py
+      turn_manager.py
+
+      handlers/
+        register_handlers.py
+
+        ability/
+          trigger_handler.py
+          create_trigger_handler.py
+          card_trigger_handler.py
+
+        core/
+          phase_handler.py
+          mana_handler.py
+          draw_handler.py
+          combat_handler.py
+          damage_handler.py
+          death_handler.py
+          summon_handler.py
+          end_handler.py
+          nexus_handler.py
+
+    presentation/          ← OpenGL + UI
+      window.py
+
+      scene/
+        scene.py
+        entity.py
+        transform.py
+
+      camera/
+        camera.py
+
+      render/
+        renderer3d.py
+        renderer2d.py
+        game_renderer.py
+
+      gl/
+        shader.py
+        mesh.py
+        buffer.py
+        texture.py
+
+      ui/
+        ui_system.py
+        ui_element.py
+
+      mapping/
+        visual_mapper.py
+
+    data/                  ← dados puros
+      cards.json
+      abilities.json
+      decks.json
+
+tests/
+
+main.py

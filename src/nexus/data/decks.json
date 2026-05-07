@@ -1,0 +1,46 @@
+[
+  {
+    "id": "deck_shadow_master",
+    "name": "Mestre das Sombras - Deck Básico",
+    "hero": "shadow_master",
+    "cards": [
+      "parasita_sombrio",
+      "parasita_sombrio",
+      "soldado_fraco",
+      "soldado_fraco",
+      "servo_sombrio",
+      "servo_sombrio",
+      "sombra_degeneracao",
+      "golem_terra",
+      "golem_terra",
+      "phoenix_fogo",
+      "abominacao_carne",
+      "guerreiro_solar",
+      "espirito_agua",
+      "elementar_ar",
+      "elementar_ar"
+    ]
+  },
+  {
+    "id": "deck_light_guardian",
+    "name": "Guardião da Luz - Deck Básico",
+    "hero": "light_guardian",
+    "cards": [
+      "guerreiro_solar",
+      "guerreiro_solar",
+      "espirito_agua",
+      "espirito_agua",
+      "elementar_ar",
+      "elementar_ar",
+      "julgamento_solar",
+      "miniatura_sol_ardente",
+      "golem_terra",
+      "golem_terra",
+      "phoenix_fogo",
+      "phoenix_fogo",
+      "soldado_fraco",
+      "servo_sombrio",
+      "parasita_sombrio"
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+DECK SOMBRA (12 MONSTROS / 3 FEITICOS)
+Larva da Carne Viva (Nv1)
+300/200
+Ao morrer: gera 1 Fragmento
+Se sacrificada: gera 2 Fragmentos
+Sombra Rastejante (Nv2)
+500/400
+Ao ser sacrificada: compre 1 carta
+Se usada em efeito: compre 2 cartas
+Parasita Abissal (Nv3)
+600/500
+Ao entrar: -200 DEF inimigo
+Sempre que inimigo recebe debuff: -100 DEF adicional
+Evolucao:
+Ganha +200 ATK por debuff aplicado
+Se DEF <= 0: destrói e gera Fragmento
+Acolito da Degeneracao (Nv4)
+800/700
+Sempre que uma criatura morre: ganha +200 ATK permanente
+Se foi sacrificio aliado: ganha +400 ao inves de 200
+Aberracao Costurada (Nv5)
+1400/1200
+Ao sacrificar: +300 ATK
+Se 2+ sacrificios: +300 DEF
+Evolucao:
+Pode sacrificar inimigos DEF < 1000
+Ao sacrificar inimigo: compra 1 carta
+Horror Pulsante (Nv5)
+1300/1300
+Final do turno: -200 ATK/DEF inimigos
+Se 2+ afetados: causa 200 dano ao jogador
+Evolucao:
+Debuffs causam dano direto
+Inimigos com debuff recebem +100 dano extra
+Devora-Almas Corrompido (Nv6)
+1600/1400
+Ao destruir criatura: cura 300 LP
+Se destruiu criatura com debuff: compra 1 carta
+Massa Amorfa Mutante (Nv6)
+1500/1500
+Evolucao custa 1 mana
+Ao sacrificar: ganha +200 ATK/DEF temporario
+Evolucao:
+Copia efeito da criatura sacrificada
+Pode armazenar ate 2 efeitos
+Abominacao de Carne (Nv7)
+2000/1600
+Consome aliado: ganha ATK dele (max 3000)
+Evolucao:
+Ataca 2x
+Ao destruir: gera Fragmento e ganha +200 ATK
+Quimera das 5 Cabecas (Nv7)
+2100/1800
+A cada turno:
+1- dano 300
+2- -300 ATK/DEF inimigo
+3- cura 300 LP
+Avatar da Degeneracao (Nv8)
+2600/2200
+Ganha ATK igual a metade das criaturas destruidas
+Se 3+ criaturas morreram no turno: ganha +300 DEF
+Deus da Carne Infinita (Nv8)
+3000/2500
+Uma vez: revive criaturas sacrificadas como 0/0
+Essas criaturas podem ser sacrificadas imediatamente
+--- FEITICOS SOMBRA ---
+Ritual de Degeneracao (3 mana)
+Sacrifique 1 criatura:
+compre 2 cartas
+outra criatura ganha +500 ATK
+Se sacrificou Larva ou Fragmento: gera mais 1 Fragmento
+Corrupcao Progressiva (3 mana)
+Aplica -200 DEF por turno (3 turnos)
+Sempre que aplicar debuff:
+ativa efeitos de Parasita/Horror novamente
+Banquete Profano (4 mana)
+Destrua 1 aliado:
+causa dano igual ao ATK a um alvo
+Se alvo morrer:
+gera 1 Fragmento
+ativa efeitos de sacrificio
+DECK SOL (8 MONSTROS / 7 FEITICOS)
+Sentinela da Luz (Nv2)
+400/800
+Recebe +300 DEF permanente
+Se receber buff: ganha +100 ATK
+Discipulo Solar (Nv3)
+700/600
+Ao entrar: +200 ATK/DEF
+Evolucao:
+Aura +200
+Buff cura 100 LP e remove debuff
+Guardiao Radiante (Nv4)
+900/900
+Imune no turno que entra
+Evolucao:
+Aliados nao podem ser alvo
+Recebe dano por eles
+Se sobreviver: +300 DEF
+Cavaleiro da Aurora (Nv5)
+1500/1300
+Ao atacar: -300 ATK inimigo
+Evolucao:
+Se inimigo tiver debuff: destrói
+Ao destruir: ganha +300 ATK
+Arcanjo do Julgamento (Nv6)
+1700/1500
+Ao entrar: silencia
+Evolucao:
+Inimigos nao ativam efeitos
+Remove buffs e aplica -200 ATK
+Avatar Solar (Nv7)
+2300/2000
++300 ATK por aliado
+Evolucao:
+Buff causa 200 dano global
+Se 2 buffs no turno: +200 dano extra
+Miniatura de Sol Ardente (Nv7)
+Destrói criatura
+Se alvo for Nv6+: causa 300 dano ao jogador
+Encarnacao do Sol Supremo (Nv8)
+2800/2600
+Aliados nao podem ser destruidos
+Se sobreviverem dano: cura 200 LP
+--- FEITICOS SOL ---
+Julgamento Solar (3 mana)
+Ate 2 criaturas:
+Aliados: +300 ATK/DEF
+Inimigos: -300 ATK/DEF e efeitos negados
+Se afetar 2 aliados:
+ativa efeitos de buff (Avatar, Discipulo)
+Explosao Radiante (4 mana)
+Destrói criatura com ATK >= 1500
+Se a criatura tinha debuff:
+causa 300 dano ao jogador
+Luz Purificadora (2 mana)
+Remove todos debuffs dos aliados
+Para cada debuff removido:
+cura 100 LP
+Barreira Divina (3 mana)
+Aliados nao podem ser destruidos neste turno
+Se um aliado sobreviver dano:
+ganha +200 DEF permanente
+Ordem Absoluta (3 mana)
+Oponente nao pode:
+atacar com Nv >=5
+ativar efeitos de criaturas evoluidas
+(dura 1 turno)
+Chama do Equilibrio (2 mana)
+Se o inimigo tiver mais criaturas:
+destrói a mais forte
+Se empatar:
+causa 300 dano direto
+Renascimento Solar (4 mana)
+Revive 1 criatura de luz
+Ela retorna com:
++500 ATK
+imune a efeitos no turno
+
+

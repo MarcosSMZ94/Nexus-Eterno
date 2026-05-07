@@ -1,0 +1,128 @@
+[
+  {
+    "id": "soldado_fraco",
+    "name": "Soldado Fraco",
+    "level": 3,
+    "atk": 500,
+    "hp": 300,
+    "element": "SHADOW",
+    "type": "creature",
+    "effects": []
+  },
+  {
+    "id": "servo_sombrio",
+    "name": "Servo Sombrio",
+    "level": 3,
+    "atk": 400,
+    "hp": 250,
+    "element": "SHADOW",
+    "type": "creature",
+    "effects": []
+  },
+  {
+    "id": "abominacao_carne",
+    "name": "Abominação de Carne",
+    "level": 7,
+    "atk": 2000,
+    "hp": 1200,
+    "element": "SHADOW",
+    "type": "creature",
+    "effects": ["SUMMON:consume_ally_double_atk"]
+  },
+  {
+    "id": "sombra_degeneracao",
+    "name": "Sombra de Degeneração",
+    "level": 4,
+    "atk": 600,
+    "hp": 400,
+    "element": "SHADOW",
+    "type": "spell",
+    "cost_mana": 3,
+    "effects": ["CAST:apply_debuff_def(200)"]
+  },
+  {
+    "id": "parasita_sombrio",
+    "name": "Parasita Sombrio",
+    "level": 2,
+    "atk": 200,
+    "hp": 300,
+    "element": "SHADOW",
+    "type": "creature",
+    "effects": ["DEATH:spawn_token"]
+  },
+  {
+    "id": "guerreiro_solar",
+    "name": "Guerreiro Solar",
+    "level": 3,
+    "atk": 500,
+    "hp": 400,
+    "element": "LIGHT",
+    "type": "creature",
+    "effects": ["SUMMON:gain_atk(200)"]
+  },
+  {
+    "id": "julgamento_solar",
+    "name": "Julgamento Solar",
+    "level": 5,
+    "atk": 800,
+    "hp": 600,
+    "element": "LIGHT",
+    "type": "spell",
+    "cost_mana": 3,
+    "effects": [
+      "CAST:buff_light_creatures(500)",
+      "CAST:debuff_enemy_creatures(400)"
+    ]
+  },
+  {
+    "id": "miniatura_sol_ardente",
+    "name": "Miniatura de Sol Ardente",
+    "level": 6,
+    "atk": 1500,
+    "hp": 800,
+    "element": "LIGHT",
+    "type": "spell",
+    "cost_mana": 6,
+    "effects": ["CAST:destroy_target"]
+  },
+  {
+    "id": "golem_terra",
+    "name": "Golem de Terra",
+    "level": 4,
+    "atk": 600,
+    "hp": 800,
+    "element": "EARTH",
+    "type": "creature",
+    "effects": []
+  },
+  {
+    "id": "espirito_agua",
+    "name": "Espírito da Água",
+    "level": 3,
+    "atk": 400,
+    "hp": 500,
+    "element": "WATER",
+    "type": "creature",
+    "effects": ["SUMMON:heal_player(200)"]
+  },
+  {
+    "id": "phoenix_fogo",
+    "name": "Fênix de Fogo",
+    "level": 5,
+    "atk": 800,
+    "hp": 600,
+    "element": "FIRE",
+    "type": "creature",
+    "effects": ["DEATH:deal_damage_all(300)"]
+  },
+  {
+    "id": "elementar_ar",
+    "name": "Elemental do Ar",
+    "level": 2,
+    "atk": 300,
+    "hp": 200,
+    "element": "AIR",
+    "type": "creature",
+    "effects": []
+  }
+]

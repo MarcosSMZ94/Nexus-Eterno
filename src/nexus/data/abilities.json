@@ -1,0 +1,95 @@
+[
+  {
+    "id": "consume_ally_double_atk",
+    "name": "Consumir Aliado",
+    "description": "Consome uma criatura aliada para ganhar o dobro de ATK",
+    "trigger": "SUMMON",
+    "effect_type": "consume_ally",
+    "params": {
+      "atk_multiplier": 2
+    }
+  },
+  {
+    "id": "spawn_token",
+    "name": "Gerar Token",
+    "description": "Ao morrer, gera um token no campo",
+    "trigger": "DEATH",
+    "effect_type": "spawn_token",
+    "params": {
+      "token_type": "shadow_token",
+      "token_count": 1
+    }
+  },
+  {
+    "id": "gain_atk",
+    "name": "Ganhar ATK",
+    "description": "Ganha ATK adicional",
+    "trigger": "SUMMON",
+    "effect_type": "buff_atk",
+    "params": {
+      "amount": 200
+    }
+  },
+  {
+    "id": "apply_debuff_def",
+    "name": "Reduzir DEF",
+    "description": "Reduz a DEF de uma criatura inimiga",
+    "trigger": "CAST",
+    "effect_type": "debuff_def",
+    "params": {
+      "amount": 200,
+      "duration": 3
+    }
+  },
+  {
+    "id": "buff_light_creatures",
+    "name": "Potencializar Luz",
+    "description": "Criaturas de Luz ganham ATK/DEF",
+    "trigger": "CAST",
+    "effect_type": "buff_by_element",
+    "params": {
+      "element": "LIGHT",
+      "atk_bonus": 500,
+      "def_bonus": 500
+    }
+  },
+  {
+    "id": "debuff_enemy_creatures",
+    "name": "Enfraquecer Inimigos",
+    "description": "Criaturas inimigas perdem ATK/DEF",
+    "trigger": "CAST",
+    "effect_type": "debuff_all_enemies",
+    "params": {
+      "atk_penalty": 400,
+      "def_penalty": 400
+    }
+  },
+  {
+    "id": "destroy_target",
+    "name": "Destruir Alvo",
+    "description": "Mata a criatura alvo",
+    "trigger": "CAST",
+    "effect_type": "destroy_target",
+    "params": {}
+  },
+  {
+    "id": "heal_player",
+    "name": "Curar Jogador",
+    "description": "Restaura HP do jogador",
+    "trigger": "SUMMON",
+    "effect_type": "heal",
+    "params": {
+      "amount": 200
+    }
+  },
+  {
+    "id": "deal_damage_all",
+    "name": "Dano em Área",
+    "description": "Causa dano a todas as criaturas inimigas ao morrer",
+    "trigger": "DEATH",
+    "effect_type": "damage_area",
+    "params": {
+      "damage": 300
+    }
+  }
+]

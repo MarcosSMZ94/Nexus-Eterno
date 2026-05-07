@@ -1,0 +1,193 @@
+Equipe:
+Marcos Lucas Sousa Muniz - 553241
+Emerson da Silva Nunes - 511280
+Carlos Eduardo Nogueira Vieira - 514669
+1. Identificação
+● Nome do Jogo: Nexus Eterno: O Conflito das Autoridades.
+● Lore: O duelo ocorre no Mundo das Sombras, uma dimensão de transição entre o
+Sol Onipotente e o Mar do Caos. De um lado, o Deus da Degeneração, um
+amálgama de carne e sombras que carrega os pecados do mundo. Do outro, o Sol
+Eterno, a personificação da Ordem e da Purificação. A arena flutua sobre um abismo
+que reage visualmente à autoridade dominante no tabuleiro.
+2. Os Heróis
+O Mestre das Sombras: Deus da Degeneração e Depravação
+● Visual: Uma amálgama grotesca de sombras e carne viva, com cinco cabeças que
+se contorcem e se sobrepõem em constante mutação. Sua forma é instável e
+pulsante, como se estivesse sempre se degenerando e se reconstruindo, irradiando
+uma presença que corrompe tudo ao seu redor.
+● Mecânica de Herói (Sacrifício e Degeneração) (Ativação a cada 3 turnos):
+Possui autoridade sobre o Sacrifício e Degeneração. Uma vez por partida, ele pode
+absorver o dano que seria causado a uma criatura, incorporando-o à sua própria
+malha de carne (Animação de deformação de vértices).
+● Abominação de Carne: Custo 5 mana. Ao entrar, consome outra criatura aliada
+para ganhar o dobro de ATK.
+● Sombra de Degeneração: Custo 3 mana. Aplica um debuff que reduz a DEF de
+uma criatura inimiga por 200 a cada turno por 3 turnos.
+● Efeito Passivo (Mutação): Criaturas do tipo Sombra podem sofrer Mutação
+(Evolução) com custo reduzido, mudando sua geometria para formas mais
+grotescas.
+O Guardião da Luz: O Sol Onipotente e Onisciente
+● Visual: Uma figura imponente envolta em uma armadura dourada radiante, cuja luz
+intensa pulsa como um pequeno sol. Sua presença é estável e absoluta, emanando
+energia pura que ilumina tudo ao redor e enfraquece aqueles incapazes de suportar
+seu brilho.
+● Mecânica de Herói (Ordem) (Ativação a cada 3 turnos): Autoridade sobre
+Ordem. Pode criar ordens que restringe certas ações do oponente por 1 turno (ex:
+proibir ataques de certas criaturas).
+● Julgamento Solar: Custo 3 mana. Escolha até duas criaturas no campo. Criaturas
+do tipo Luz recebem +500 ATK/DEF e tornam-se imunes a efeitos até o fim do turno.
+Criaturas inimigas perdem 400 ATK/DEF e têm seus efeitos negados até o fim do
+turno.
+● Miniatura de Sol Ardente: Custo 6 mana. Emite um raio de luz solar que irá varrer
+toda a corrupção à sua frente, matando a criatura alvo.
+● Efeito Passivo (Luz Inextinguível): Ao chegar a 0 LP, o herói retorna com 500 LP e
+remove todas as criaturas do campo. Ativa apenas uma vez por partida
+3.1 Mecânicas de Jogo (Podem mudar por questões de balanceamento)
+● Os herois possuem habilidades únicas que podem ser usadas a cada X turnos,
+habilidades com custo de mana e habilidades passivas.
+● 4000 LP por jogador
+● Deck com 15 cartas (10 criaturas + 5 feitiços)
+● Mão inicial de 4 cartas
+● Compra de 1 carta por turno
+● Sistema de Mana
+○ Começa com 1 mana e aumenta até 8
+○ Usada para feitiços, evoluções e habilidades
+○ Invocações não utilizam mana
+● Sistema de Invocação
+○ Níveis de 1 a 8
+○ Nível 1–4: invocação normal
+○ Nível 5–6: 1 sacrifício
+○ Nível 7–8: 2 sacrifícios
+● Evolução
+○ Custa 2 mana
+○ 1 vez por criatura
+○ +600 ATK/DEF e novo efeito
+● Sistema Elemental
+○ Fogo > Terra
+○ Água > Fogo
+○ Terra > Ar
+○ Ar > Água
+○ Bônus de +300 ATK contra fraqueza
+● Sistema do Nexus
+○ A cada turno, um elemento se torna dominante e concede +300 ATK/DEF às
+criaturas do mesmo tipo.
+3.2 Estrutura de Turno
+Visão Geral: Cada turno em Nexus Eterno é dividido em fases específicas. Durante seu
+turno, o jogador pode invocar criaturas, usar feitiços, ativar habilidades e atacar o oponente.
+Estrutura do Turno
+O turno segue a seguinte ordem:
+1. Fase de Compra
+2. Fase do Nexus
+3. Fase de Mana
+4. Fase Principal 1
+5. Fase de Batalha
+6. Fase Principal 2
+7. Fase Final
+1. Fase de Compra (Draw Phase)
+● Compre 1 carta do seu deck
+● Esta fase inicia todos os turnos
+2. Fase do Nexus (Nexus Phase)
+O Nexus altera o campo de batalha.
+● Um elemento se torna Dominante no turno
+● Criaturas desse elemento recebem:
+○ +300 ATK
+○ +300 DEF
+O elemento pode ser definido de diferentes formas:
+● Aleatório
+● Por efeitos de cartas
+3. Fase de Mana (Mana Phase)
+● Você ganha +1 ponto de mana
+● Máximo de mana: 8
+A mana é usada para:
+● Feitiços
+● Evoluções
+● Habilidades do herói
+4. Fase Principal 1 (Main Phase 1)
+Nesta fase, você pode realizar múltiplas ações, em qualquer ordem:
+● Invocação de Criaturas
+○ Nível 1–4: Invocação normal (sem custo)
+○ Nível 5–6: Requer 1 sacrifício
+○ Nível 7–8: Requer 2 sacrifícios
+Invocações não consomem mana
+● Uso de Feitiços
+○ Consomem mana
+○ Produzem efeitos imediatos ou contínuos
+● Evolução de Criaturas
+○ Custo: 2 mana
+○ Limite: 1 vez por criatura
+Efeitos da evolução:
+● +600 ATK
+● +600 DEF
+● Ganha nova habilidade
+Habilidades do Herói
+Os heróis possuem habilidades únicas que podem ser:
+● Ativas (com custo de mana)
+● Com tempo de recarga (cooldown)
+● Passivas (sempre ativas)
+5. Fase de Batalha (Battle Phase)
+Durante esta fase, suas criaturas podem atacar.
+Regras de Ataque
+● Cada criatura pode atacar 1 vez por turno
+● Pode atacar:
+○ Uma criatura inimiga
+○ Diretamente o oponente (se ele não tiver criaturas)
+Sistema Elemental
+Durante o combate, aplique vantagens elementais:
+● Fogo > Terra
+● Água > Fogo
+● Terra > Ar
+● Ar > Água
+Vantagem concede:
+● +300 ATK
+Resolução de Combate
+● A criatura com maior ATK vence
+● A criatura derrotada é destruída
+● Diferença de ATK pode causar dano ao jogador
+● Ataques diretos causam dano direto ao LP
+6. Fase Principal 2 (Main Phase 2)
+Funciona igual à Fase Principal 1.
+Você pode:
+● Invocar criaturas
+● Usar feitiços
+● Evoluir criaturas
+● Ativar habilidades
+7. Fase Final (End Phase)
+● Finalize seu turno
+● Reduza cooldowns de habilidades
+● Resolva efeitos de fim de turno
+● Passe a vez para o oponente
+Condição de Vitória
+● Cada jogador começa com 4000 LP
+● Um jogador perde ao chegar a 0 LP
+Resumo Rápido do Turno
+1. Comprar carta
+2. Ativar Nexus
+3. Ganhar mana
+4. Jogar cartas e preparar campo
+5. Atacar
+6. Jogar novamente
+7. Encerrar turno
+4. Aspectos técnica
+Iluminação Dinâmica
+● Luz do Sol: A autoridade do Sol será representada por uma Luz Direcional de alta
+intensidade e um efeito de Bloom.
+● Sombras Negras: O lado da Degeneração usará Shadow Mapping agressivo e
+texturas que parecem se mover autonomamente.
+Animações e Partículas
+● Purificação: Quando uma criatura de luz vence um combate, o inimigo não apenas
+desaparece, ele é Purificado em partículas douradas e fogo.
+● Infestação: Ataques de sombras deixam rastros de degeneração no tabuleiro,
+alterando a cor e textura do chão.
+Miscellaneous
+● O jogo será totalmente controlado por mouse, utilizando cliques, drag-and-drop e
+caixas de seleção para interação com cartas e elementos da interface.
+● Haverá interface gráfica completa, exibindo vida (LP), mana, cartas, descrições de
+criaturas e efeitos ativos de forma clara e organizada.
+● O jogo será para dois jogadores locais. A cada troca de turno, a câmera será
+rotacionada automaticamente para focar no jogador ativo.
+● A aplicação utilizará uma abordagem híbrida: arena e heróis em 3D, enquanto
+interface, cartas e demais elementos serão em 2D.
+● Serão implementados efeitos sonoros para ações como ataques, invocações e
+habilidades especiais.
+● Também haverá feedback visual para todas as ações, incluindo animações, efeitos
+de dano, buffs e debuffs, garantindo melhor compreensão do estado do jogo.
