@@ -1,160 +1,160 @@
-DECK SOMBRA (12 MONSTROS / 3 FEITICOS)
-Larva da Carne Viva (Nv1)
-300/200
-Ao morrer: gera 1 Fragmento
-Se sacrificada: gera 2 Fragmentos
-Sombra Rastejante (Nv2)
-500/400
-Ao ser sacrificada: compre 1 carta
-Se usada em efeito: compre 2 cartas
-Parasita Abissal (Nv3)
-600/500
-Ao entrar: -200 DEF inimigo
-Sempre que inimigo recebe debuff: -100 DEF adicional
-Evolucao:
-Ganha +200 ATK por debuff aplicado
-Se DEF <= 0: destrói e gera Fragmento
-Acolito da Degeneracao (Nv4)
-800/700
-Sempre que uma criatura morre: ganha +200 ATK permanente
-Se foi sacrificio aliado: ganha +400 ao inves de 200
-Aberracao Costurada (Nv5)
-1400/1200
-Ao sacrificar: +300 ATK
-Se 2+ sacrificios: +300 DEF
-Evolucao:
-Pode sacrificar inimigos DEF < 1000
-Ao sacrificar inimigo: compra 1 carta
-Horror Pulsante (Nv5)
-1300/1300
-Final do turno: -200 ATK/DEF inimigos
-Se 2+ afetados: causa 200 dano ao jogador
-Evolucao:
-Debuffs causam dano direto
-Inimigos com debuff recebem +100 dano extra
-Devora-Almas Corrompido (Nv6)
-1600/1400
-Ao destruir criatura: cura 300 LP
-Se destruiu criatura com debuff: compra 1 carta
-Massa Amorfa Mutante (Nv6)
-1500/1500
-Evolucao custa 1 mana
-Ao sacrificar: ganha +200 ATK/DEF temporario
-Evolucao:
-Copia efeito da criatura sacrificada
-Pode armazenar ate 2 efeitos
-Abominacao de Carne (Nv7)
-2000/1600
-Consome aliado: ganha ATK dele (max 3000)
-Evolucao:
-Ataca 2x
-Ao destruir: gera Fragmento e ganha +200 ATK
-Quimera das 5 Cabecas (Nv7)
-2100/1800
-A cada turno:
-1- dano 300
-2- -300 ATK/DEF inimigo
-3- cura 300 LP
-Avatar da Degeneracao (Nv8)
-2600/2200
-Ganha ATK igual a metade das criaturas destruidas
-Se 3+ criaturas morreram no turno: ganha +300 DEF
-Deus da Carne Infinita (Nv8)
-3000/2500
-Uma vez: revive criaturas sacrificadas como 0/0
-Essas criaturas podem ser sacrificadas imediatamente
---- FEITICOS SOMBRA ---
-Ritual de Degeneracao (3 mana)
-Sacrifique 1 criatura:
-compre 2 cartas
-outra criatura ganha +500 ATK
-Se sacrificou Larva ou Fragmento: gera mais 1 Fragmento
-Corrupcao Progressiva (3 mana)
-Aplica -200 DEF por turno (3 turnos)
-Sempre que aplicar debuff:
-ativa efeitos de Parasita/Horror novamente
-Banquete Profano (4 mana)
-Destrua 1 aliado:
-causa dano igual ao ATK a um alvo
-Se alvo morrer:
-gera 1 Fragmento
-ativa efeitos de sacrificio
-DECK SOL (8 MONSTROS / 7 FEITICOS)
-Sentinela da Luz (Nv2)
-400/800
-Recebe +300 DEF permanente
-Se receber buff: ganha +100 ATK
-Discipulo Solar (Nv3)
-700/600
-Ao entrar: +200 ATK/DEF
-Evolucao:
-Aura +200
-Buff cura 100 LP e remove debuff
-Guardiao Radiante (Nv4)
-900/900
-Imune no turno que entra
-Evolucao:
-Aliados nao podem ser alvo
-Recebe dano por eles
-Se sobreviver: +300 DEF
-Cavaleiro da Aurora (Nv5)
-1500/1300
-Ao atacar: -300 ATK inimigo
-Evolucao:
-Se inimigo tiver debuff: destrói
-Ao destruir: ganha +300 ATK
-Arcanjo do Julgamento (Nv6)
-1700/1500
-Ao entrar: silencia
-Evolucao:
-Inimigos nao ativam efeitos
-Remove buffs e aplica -200 ATK
-Avatar Solar (Nv7)
-2300/2000
-+300 ATK por aliado
-Evolucao:
-Buff causa 200 dano global
-Se 2 buffs no turno: +200 dano extra
-Miniatura de Sol Ardente (Nv7)
-Destrói criatura
-Se alvo for Nv6+: causa 300 dano ao jogador
-Encarnacao do Sol Supremo (Nv8)
-2800/2600
-Aliados nao podem ser destruidos
-Se sobreviverem dano: cura 200 LP
---- FEITICOS SOL ---
-Julgamento Solar (3 mana)
-Ate 2 criaturas:
-Aliados: +300 ATK/DEF
-Inimigos: -300 ATK/DEF e efeitos negados
-Se afetar 2 aliados:
-ativa efeitos de buff (Avatar, Discipulo)
-Explosao Radiante (4 mana)
-Destrói criatura com ATK >= 1500
-Se a criatura tinha debuff:
-causa 300 dano ao jogador
-Luz Purificadora (2 mana)
-Remove todos debuffs dos aliados
-Para cada debuff removido:
-cura 100 LP
-Barreira Divina (3 mana)
-Aliados nao podem ser destruidos neste turno
-Se um aliado sobreviver dano:
-ganha +200 DEF permanente
-Ordem Absoluta (3 mana)
-Oponente nao pode:
-atacar com Nv >=5
-ativar efeitos de criaturas evoluidas
-(dura 1 turno)
-Chama do Equilibrio (2 mana)
-Se o inimigo tiver mais criaturas:
-destrói a mais forte
-Se empatar:
-causa 300 dano direto
-Renascimento Solar (4 mana)
-Revive 1 criatura de luz
-Ela retorna com:
-+500 ATK
-imune a efeitos no turno
+================================================================================
+NEXUS ETERNO: O CONFLITO DAS AUTORIDADES
+================================================================================
 
+================================================================================
+DECK SOMBRA (12 Monstros / 3 Feiticos)
+================================================================================
+
+--- MONSTROS ---
+
+Larva da Carne Viva -- Nv1 | 300 ATK / 200 DEF
+  Ao morrer: gera 1 Fragmento
+  Ao ser sacrificada (custo de invocacao): gera 2 Fragmentos em vez de 1
+
+Sombra Rastejante -- Nv2 | 500 ATK / 400 DEF
+  Ao ser sacrificada (custo de invocacao): compre 1 carta
+  Ao ser usada como custo de um feitico: compre 2 cartas em vez de 1
+
+Parasita Abissal -- Nv3 | 600 ATK / 500 DEF
+  Ao entrar em campo: aplica -200 DEF a 1 criatura inimiga escolhida
+  A cada debuff aplicado a essa criatura (por qualquer fonte): -100 DEF adicional nela
+  [EVOLUCAO] Ganha +200 ATK permanente por cada debuff que ele mesmo aplicou
+  Se a criatura inimiga afetada atingir DEF <= 0: destroi ela e gera 1 Fragmento
+
+Acolito da Degeneracao -- Nv4 | 800 ATK / 700 DEF
+  Sempre que qualquer criatura (aliada ou inimiga) e destruida: ganha +200 ATK permanente
+  Se a criatura destruida foi um sacrificio aliado voluntario: ganha +400 ATK em vez de +200
+
+Aberracao Costurada -- Nv5 | 1400 ATK / 1200 DEF
+  Ao ser invocada via sacrificio: ganha +300 ATK por cada criatura sacrificada em sua invocacao
+  Se foram usados 2 ou mais sacrificios em sua invocacao: ganha tambem +300 DEF permanente
+  [EVOLUCAO] Pode sacrificar criaturas inimigas com DEF <= 999 como se fossem aliadas
+  [EVOLUCAO] Ao sacrificar uma criatura inimiga: compre 1 carta
+
+Horror Pulsante -- Nv5 | 1300 ATK / 1300 DEF
+  No final de cada turno seu: aplica -200 ATK e -200 DEF a todas as criaturas inimigas em campo
+  Se 2 ou mais criaturas foram afetadas: causa 200 de dano direto ao jogador inimigo
+  [EVOLUCAO] Cada debuff aplicado por esta carta causa 100 de dano direto ao jogador inimigo
+  [EVOLUCAO] Criaturas com qualquer debuff ativo recebem +100 de dano de todos os ataques
+
+Devora-Almas Corrompido -- Nv6 | 1600 ATK / 1400 DEF
+  Ao destruir uma criatura inimiga em combate ou por efeito: cura 300 LP
+  Se a criatura destruida tinha pelo menos 1 debuff ativo: compre 1 carta alem da cura
+
+Massa Amorfa Mutante -- Nv6 | 1500 ATK / 1500 DEF
+  Efeito base: o custo de evolucao desta carta e reduzido em 1 mana
+  Ao sacrificar 1 aliado para ativar um efeito: ganha +200 ATK e +200 DEF ate o fim do turno
+  [EVOLUCAO] Ao sacrificar 1 aliado: copia permanentemente 1 efeito ativo dessa criatura
+  [EVOLUCAO] Pode armazenar ate 2 efeitos copiados simultaneamente; copiar um 3o substitui o mais antigo
+
+Abominacao de Carne -- Nv7 | 2000 ATK / 1600 DEF
+  Ao sacrificar 1 aliado como custo de qualquer efeito: ganha ATK igual ao ATK base dessa criatura (maximo total: 3000 ATK)
+  [EVOLUCAO] Pode atacar 2 vezes por turno
+  Ao destruir uma criatura inimiga: gera 1 Fragmento e ganha +200 ATK permanente
+
+Quimera das 5 Cabecas -- Nv7 | 2100 ATK / 1800 DEF
+  Efeito ciclico (reinicia apos o turno 3):
+    Turno 1: causa 300 de dano direto ao jogador inimigo
+    Turno 2: aplica -300 ATK e -300 DEF a 1 criatura inimiga escolhida
+    Turno 3: cura 300 LP
+
+Avatar da Degeneracao -- Nv8 | 2600 ATK / 2200 DEF
+  Passivo: ganha +100 ATK permanente para cada criatura destruida durante a partida (aliada ou inimiga)
+  Se 3 ou mais criaturas foram destruidas no mesmo turno: ganha +300 DEF permanente ao fim desse turno
+
+Deus da Carne Infinita -- Nv8 | 3000 ATK / 2500 DEF
+  Uma vez por jogo: escolha qualquer numero de criaturas Sombra no seu cemiterio que foram sacrificadas; retorne-as ao campo como tokens 0 ATK / 0 DEF
+  Tokens retornados por este efeito podem ser sacrificados imediatamente no mesmo turno
+
+--- FEITICOS ---
+
+Ritual de Degeneracao -- 3 mana
+  Sacrifique 1 criatura aliada: compre 2 cartas e escolha 1 criatura aliada em campo para ganhar +500 ATK ate o fim do turno
+  Se a criatura sacrificada foi Larva da Carne Viva ou um token Fragmento: gere 1 Fragmento adicional
+
+Corrupcao Progressiva -- 3 mana
+  Escolha 1 criatura inimiga: ela recebe -200 DEF no inicio de cada um dos proximos 3 turnos seus
+  Sempre que um desses debuffs for aplicado: reative imediatamente os efeitos passivos de turno do Parasita Abissal e do Horror Pulsante, se estiverem em campo
+
+Banquete Profano -- 4 mana
+  Destrua 1 criatura aliada: cause dano direto ao jogador inimigo ou a 1 criatura inimiga igual ao ATK base da criatura destruida
+  Se o alvo for uma criatura e ela for destruida por este dano: gere 1 Fragmento e ative todos os efeitos de "ao ser sacrificada" das criaturas aliadas em campo
+
+================================================================================
+DECK SOL (8 Monstros / 7 Feiticos)
+================================================================================
+
+--- MONSTROS ---
+
+Sentinela da Luz -- Nv2 | 400 ATK / 800 DEF
+  Sempre que receber dano em combate e sobreviver: ganha +300 DEF permanente
+  Sempre que receber um buff de qualquer fonte aliada: ganha +100 ATK permanente
+
+Discipulo Solar -- Nv3 | 700 ATK / 600 DEF
+  Ao entrar em campo: ganha +200 ATK e +200 DEF permanentes
+  [EVOLUCAO] Aura: todas as criaturas aliadas em campo ganham +200 ATK e +200 DEF enquanto esta carta estiver em campo
+  [EVOLUCAO] Sempre que qualquer aliado receber um buff: cura 100 LP e remove 1 debuff dessa criatura
+
+Guardiao Radiante -- Nv4 | 900 ATK / 900 DEF
+  No turno em que e invocado: imune a todos os efeitos inimigos
+  [EVOLUCAO] Criaturas aliadas nao podem ser escolhidas como alvo de efeitos inimigos; todo dano que seria causado a elas e redirecionado para esta carta
+  [EVOLUCAO] Sempre que absorver dano redirecionado e sobreviver: ganha +300 DEF permanente
+
+Cavaleiro da Aurora -- Nv5 | 1500 ATK / 1300 DEF
+  Ao atacar uma criatura inimiga: aplica -300 ATK permanente nela, independente do resultado do combate
+  [EVOLUCAO] Se a criatura atacada tiver qualquer debuff ativo: destroi ela diretamente em vez de aplicar o debuff de ATK
+  Ao destruir uma criatura inimiga (por ataque ou efeito de evolucao): ganha +300 ATK permanente
+
+Arcanjo do Julgamento -- Nv6 | 1700 ATK / 1500 DEF
+  Ao entrar em campo: todas as criaturas inimigas sao silenciadas (nao podem ativar efeitos) ate o fim do turno inimigo seguinte
+  [EVOLUCAO] Enquanto esta carta estiver em campo: criaturas inimigas nao podem ativar efeitos ativos (efeitos passivos e de entrada ainda funcionam)
+  [EVOLUCAO] Ao entrar em campo: remove todos os buffs das criaturas inimigas e aplica -200 ATK a cada uma delas
+
+Avatar Solar -- Nv7 | 2300 ATK / 2000 DEF
+  Passivo: ganha +300 ATK para cada outra criatura aliada em campo (recalculado a cada turno)
+  [EVOLUCAO] Sempre que qualquer criatura aliada receber um buff: causa 200 de dano a todas as criaturas inimigas em campo
+  [EVOLUCAO] Se 2 ou mais buffs foram aplicados em aliados no mesmo turno: o dano global desse turno e aumentado em +200
+
+Miniatura de Sol Ardente -- Nv7 | 3000 ATK / 3000 DEF
+  Efeito de entrada: destroi 1 criatura em campo (aliada ou inimiga) a sua escolha
+  Se a criatura destruida for Nv6 ou superior: causa 300 de dano direto ao jogador que a controlava
+
+Encarnacao do Sol Supremo -- Nv8 | 2800 ATK / 2600 DEF
+  Passivo: criaturas aliadas em campo nao podem ser destruidas por efeitos nem em combate
+  Sempre que uma criatura aliada sofrer dano e sobreviver (por este efeito ou por reducao de dano): cura 200 LP
+
+--- FEITICOS ---
+
+Julgamento Solar -- 3 mana
+  Escolha ate 2 criaturas aliadas: cada uma ganha +300 ATK e +300 DEF ate o fim do turno
+  Escolha ate 2 criaturas inimigas: cada uma recebe -300 ATK e -300 DEF e tem seus efeitos negados ate o fim do turno inimigo seguinte
+  Se exatamente 2 aliadas foram afetadas: ative imediatamente os efeitos passivos de turno do Avatar Solar e do Discipulo Solar
+
+Explosao Radiante -- 4 mana
+  Escolha 1 criatura em campo com ATK igual ou superior a 1500: destroi ela
+  Se a criatura destruida tinha pelo menos 1 debuff ativo: causa 300 de dano direto ao jogador que a controlava
+
+Luz Purificadora -- 2 mana
+  Remove todos os debuffs de todas as criaturas aliadas em campo
+  Para cada debuff removido por este efeito: cura 100 LP
+
+Barreira Divina -- 3 mana
+  Ate o fim deste turno: criaturas aliadas nao podem ser destruidas por efeitos nem em combate
+  Para cada criatura aliada que sofrer dano e sobreviver por este efeito neste turno: ela ganha +200 DEF permanente
+
+Ordem Absoluta -- 3 mana
+  Ate o fim do proximo turno inimigo: o oponente nao pode declarar ataques com criaturas Nv5 ou superior
+  Ate o fim do proximo turno inimigo: o oponente nao pode ativar efeitos de criaturas que ja foram evoluidas
+
+Chama do Equilibrio -- 2 mana
+  Se o oponente tiver mais criaturas em campo que voce: destroi a criatura inimiga com maior ATK em campo
+  Se os dois jogadores tiverem o mesmo numero de criaturas em campo: causa 300 de dano direto ao jogador inimigo
+  (Se o oponente tiver menos criaturas que voce, este feitico nao tem efeito)
+
+Renascimento Solar -- 4 mana
+  Escolha 1 criatura do tipo Sol no seu cemiterio: retorne-a ao campo
+  No turno em que retornar: ganha +500 ATK e e imune a todos os efeitos inimigos
+
+================================================================================
 

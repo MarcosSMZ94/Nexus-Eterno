@@ -1,7 +1,8 @@
+import logging
+
 from nexus.domain.events.queue import EventQueue
 from nexus.domain.events.event import Event
 from nexus.domain.events.types import EventType
-
 
 class EventResolver:
     def __init__(self, queue: EventQueue):
@@ -17,7 +18,13 @@ class EventResolver:
         while not self.queue.is_empty():
             event = self.queue.pop()
 
-            print(f"[Resolver] {event.type}")
+            if game_state:
+                try:
+                    game_state.add_log(f"[Resolver] {event.type}")
+                except Exception:
+                    logging.info(f"[Resolver] {event.type}")
+            else:
+                logging.info(f"[Resolver] {event.type}")
 
             handlers = self.handlers.get(event.type, [])
 

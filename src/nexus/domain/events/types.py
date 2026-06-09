@@ -3,7 +3,6 @@ from enum import Enum, auto
 class EventType(Enum):
     # Turno
     TURN_START = auto()
-    TURN_END = auto()
     PHASE_CHANGED = auto()
 
     # Fases
@@ -25,11 +24,4 @@ class EventType(Enum):
     DEATH = auto()
     SACRIFICE = auto()
     CAST = auto()
-
-    # Sistema
-    DRAW = auto()
-
-    # Abilities
-    TRIGGER_ABILITY = auto()
-    
-    
+    BUFF = auto()  # disparado quando uma carta recebe um buff (atk/def positivo)

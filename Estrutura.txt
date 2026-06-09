@@ -57,6 +57,11 @@ src/
     presentation/          ← OpenGL + UI
       window.py
 
+      assets/
+        card1.png
+        card2.png
+        card3.png
+
       scene/
         scene.py
         entity.py
@@ -72,6 +77,9 @@ src/
 
       gl/
         shader.py
+        shaders/
+          vertex.glsl
+          fragment.glsl
         mesh.py
         buffer.py
         texture.py

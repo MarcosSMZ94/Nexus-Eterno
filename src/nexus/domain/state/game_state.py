@@ -9,3 +9,13 @@ class GameState:
         self.turn_count = 1
 
         self.nexus_element = None
+        self.log = []
+
+    def add_log(self, message: str):
+        self.log.append(message)
+
+    def get_logs(self):
+        return list(self.log)
+
+    def clear_logs(self):
+        self.log.clear()

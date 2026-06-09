@@ -1,5 +1,5 @@
 class BoardState:
-    MAX_SLOTS = 5
+    MAX_SLOTS = 3
 
     def __init__(self):
         self.slots = [None] * self.MAX_SLOTS

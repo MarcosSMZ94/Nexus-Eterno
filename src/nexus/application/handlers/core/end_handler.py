@@ -5,4 +5,8 @@ def handle_end_phase(event, game_state, queue):
         if player.hero_cooldowns[key] > 0:
             player.hero_cooldowns[key] -= 1
 
-    print("[END PHASE]")
+    try:
+        game_state.add_log("[END PHASE]")
+    except Exception:
+        import logging
+        logging.info("[END PHASE]")

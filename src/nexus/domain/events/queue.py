@@ -3,7 +3,6 @@ from typing import Optional
 
 from .event import Event
 
-
 class EventQueue:
     def __init__(self):
         self._queue = deque()

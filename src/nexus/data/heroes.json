@@ -1,0 +1,32 @@
+[
+  {
+    "id": "solar_champion",
+    "name": "Guardião da Luz",
+    "active": {
+      "name": "Ordem Divina",
+      "description": "Todos os aliados ficam protegidos e imunes a ataques neste turno.",
+      "mana_cost": 2,
+      "cooldown_turns": 3,
+      "ability_id": "hero_ordem_divina"
+    },
+    "passive": {
+      "name": "Luz Inextinguível",
+      "description": "Uma vez por partida: ao chegar a 0 LP, retorna com 500 LP e remove todas as criaturas do campo."
+    }
+  },
+  {
+    "id": "lord_of_shadows",
+    "name": "Mestre das Sombras",
+    "active": {
+      "name": "Degeneração",
+      "description": "Aplica -300 DEF a todas as criaturas inimigas.",
+      "mana_cost": 2,
+      "cooldown_turns": 3,
+      "ability_id": "hero_degeneracao"
+    },
+    "passive": {
+      "name": "Mutação",
+      "description": "Criaturas Sombra do seu lado evoluem com custo -1 mana (mínimo 1)."
+    }
+  }
+]
