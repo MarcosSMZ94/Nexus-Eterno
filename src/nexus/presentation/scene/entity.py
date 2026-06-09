@@ -3,23 +3,39 @@ import glm
 
 from nexus.presentation.scene.transform import create_model_matrix
 
+def create_card_model_matrix(x, y, width, height, scale, rotation_degrees):
+	scaled_width = width * scale
+	scaled_height = height * scale
+
+	center_x = x + scaled_width / 2
+	center_y = y + scaled_height / 2
+
+	model = glm.mat4(1.0)
+	model = glm.translate(model, glm.vec3(center_x, center_y, 0.0))
+	model = glm.rotate(model, glm.radians(rotation_degrees), glm.vec3(0.0, 0.0, 1.0))
+	model = glm.translate(model, glm.vec3(-scaled_width / 2, -scaled_height / 2, 0.0))
+	model = glm.scale(model, glm.vec3(scaled_width, scaled_height, 1.0))
+
+	return model
+
 class Card:
-	def __init__(self, x, y, texture):
+	def __init__(self, x, y, texture, owner=None, width=160, height=240):
 		self.x = x
 		self.y = y
 		self.home_x = x
 		self.home_y = y
+		self.owner = owner
 		self.current_x = x
 		self.current_y = y
 		self.target_x = x
 		self.target_y = y
-		self.width = 220
-		self.height = 320
+		self.width = width
+		self.height = height
 		self.texture = texture
 		self.hovered = False
 		self.dragging = False
 		self.current_scale = 1.0
-		self.target_scale = 1.0
+		self.target_scale = 1.20
 		self.drag_offset_x = 0
 		self.drag_offset_y = 0
 		self.state = "hand"
@@ -86,14 +102,16 @@ class Card:
 			self.current_y += (self.target_y - self.current_y) * 0.18
 		self.current_scale += (self.target_scale - self.current_scale) * 0.15
 
-	def draw(self, vao, model_loc):
+	def draw(self, vao, model_loc, rotated=False):
 		glBindTexture(GL_TEXTURE_2D, self.texture)
-		model = create_model_matrix(
+		rotation = 180.0 if rotated else 0.0
+		model = create_card_model_matrix(
 			self.current_x,
 			self.current_y,
 			self.width,
 			self.height,
 			self.current_scale,
+			rotation,
 		)
 		glUniformMatrix4fv(model_loc, 1, GL_FALSE, glm.value_ptr(model))
 		glBindVertexArray(vao)

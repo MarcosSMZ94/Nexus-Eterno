@@ -4,7 +4,6 @@ import os
 from nexus.domain.cards.models import Card, AbilityDefinition
 from nexus.domain.cards.parser import parse_effect
 
-
 def load_cards(path: str = None):
     if path is None:
         path = os.path.join(os.path.dirname(__file__), "..", "..", "data", "cards.json")
@@ -32,28 +31,8 @@ def load_cards(path: str = None):
             cost_mana=card_data.get("cost_mana", 0)
         )
 
+        card.evolution = card_data.get("evolution")  # None se ausente
+        card.desc = card_data.get("desc", "")
         cards.append(card)
 
     return cards
-
-
-def load_abilities(path: str = None):
-    if path is None:
-        path = os.path.join(os.path.dirname(__file__), "..", "..", "data", "abilities.json")
-    
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    abilities = {}
-
-    for ability_data in data:
-        ability_id = ability_data["id"]
-        abilities[ability_id] = {
-            "name": ability_data.get("name", ""),
-            "description": ability_data.get("description", ""),
-            "trigger": ability_data.get("trigger", ""),
-            "effect_type": ability_data.get("effect_type", ""),
-            "params": ability_data.get("params", {})
-        }
-
-    return abilities

@@ -1,8 +1,6 @@
 import json
 import os
-
 from nexus.domain.cards.loader import load_cards
-
 
 def load_decks(path: str = None):
     if path is None:
@@ -22,7 +20,6 @@ def load_decks(path: str = None):
 
     return decks
 
-
 def build_deck_from_ids(card_ids: list, all_cards: dict):
     deck = []
     for card_id in card_ids:
@@ -30,9 +27,9 @@ def build_deck_from_ids(card_ids: list, all_cards: dict):
             card = all_cards[card_id]
             deck.append(card)
         else:
-            print(f"Aviso: Carta {card_id} não encontrada")
+            import logging
+            logging.warning(f"Aviso: Carta {card_id} não encontrada")
     return deck
-
 
 def load_deck_by_id(deck_id: str, decks_data: dict = None, cards_data: dict = None):
     if decks_data is None:
